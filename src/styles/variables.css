@@ -1,0 +1,66 @@
+@theme {
+	--color-background: rgb(255, 255, 255);
+	--color-foreground: rgb(9, 9, 9);
+
+	--color-primary: rgb(20, 20, 20);
+	--color-primary-foreground: rgb(255, 255, 255);
+
+	--color-accent: rgb(248, 248, 248);
+	--color-accent-foreground: rgb(88, 88, 88);
+
+	--color-secondary: rgb(238, 238, 238);
+	--color-secondary-foreground: rgb(40, 40, 40);
+
+	--color-input: rgb(255, 255, 255);
+	--color-input-foreground: rgb(58, 58, 58);
+
+	--color-card: rgb(255, 255, 255);
+	--color-card-foreground: rgb(22, 22, 22);
+
+	--color-border: rgb(224, 224, 224);
+
+	--color-destructive: rgb(255, 47, 57);
+
+	--color-red: rgb(248, 38, 48);
+	--color-orange: rgb(245, 73, 0);
+	--color-yellow: rgb(253, 199, 0);
+	--color-green: rgb(136, 208, 41);
+	--color-emerald: rgb(0, 188, 125);
+	--color-blue: rgb(50, 104, 223);
+	--color-violet: rgb(127, 34, 254);
+	--color-rose: rgb(236, 0, 63);
+
+	--radius-xs: 0.25rem;
+	--radius-sm: 0.375rem;
+	--radius-md: 0.5rem;
+	--radius-lg: 0.75rem;
+	--radius-xl: 1rem;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+	.dark {
+		--color-background: rgb(9, 9, 9);
+		--color-foreground: rgb(255, 255, 255);
+
+		--color-primary: rgb(255, 255, 255);
+		--color-primary-foreground: rgb(20, 20, 20);
+
+		--color-accent: rgb(25, 25, 25);
+		--color-accent-foreground: rgb(182, 182, 182);
+
+		--color-secondary: rgb(33, 33, 33);
+		--color-secondary-foreground: rgb(204, 204, 204);
+
+		--color-input: rgb(21, 21, 21);
+		--color-input-foreground: rgb(212, 212, 212);
+
+		--color-card: rgb(16, 16, 16);
+		--color-card-foreground: rgb(255, 255, 255);
+
+		--color-border: rgb(46, 46, 46);
+
+		--color-destructive: rgb(255, 70, 79);
+	}
+}
